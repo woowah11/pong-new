@@ -52,4 +52,7 @@ input.onGesture(Gesture.Shake, function () {
     if (ball.get(LedSpriteProperty.Y) == 0) {
         game.addScore(100)
     }
+    if (ball.get(LedSpriteProperty.X) == 4 && ball.get(LedSpriteProperty.Y) == 2) {
+        game.addScore(1000)
+    }
 })
